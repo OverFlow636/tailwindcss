@@ -27,5 +27,6 @@ export function loadConfig(path: string): Config {
     }
   })()
 
-  return config.default ?? config
+  return config
+  // return config.default ?? config
 }
